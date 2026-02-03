@@ -17,35 +17,40 @@
         overflow: hidden;
     }
 
-    .box {
-        text-align: center;
-        background: white;
-        padding: 40px;
-        border-radius: 20px;
-        box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-        z-index: 2;
-    }
+   .box {
+    text-align: center;
+    background: white;
+    padding: 50px 30px;
+    border-radius: 25px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+    width: 85%;
+    max-width: 380px;
+}
+}
 
     h1 {
-        font-size: 32px;
-        margin-bottom: 30px;
-        color: #ff4d6d;
-    }
+    font-size: 28px;
+    margin-bottom: 25px;
+    color: #ff4d6d;
+    line-height: 1.4;
+}
 
-    button {
-        font-size: 20px;
-        padding: 12px 30px;
-        border: none;
-        border-radius: 30px;
-        cursor: pointer;
-        transition: transform 0.2s ease;
-    }
 
-    #yes {
-        background: #ff4d6d;
-        color: white;
-        margin-right: 20px;
-    }
+   button {
+    font-size: 18px;
+    padding: 14px 34px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+#yes {
+    background: linear-gradient(135deg, #ff4d6d, #ff758f);
+    color: white;
+    margin-bottom: 15px;
+}
+
 
     #no {
         background: #ccc;
@@ -71,6 +76,17 @@
         }
     }
 </style>
+    @media (max-width: 480px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    button {
+        font-size: 20px;
+        padding: 16px 38px;
+    }
+}
+
 </head>
 
 <body>
